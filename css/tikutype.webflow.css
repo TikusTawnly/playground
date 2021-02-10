@@ -52,6 +52,10 @@ h6 {
 
 p {
   margin-bottom: 5px;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 a {
@@ -59,6 +63,10 @@ a {
   opacity: 0.8;
   color: #000;
   text-decoration: none;
+}
+
+a:hover {
+  color: #000;
 }
 
 ul {
@@ -723,6 +731,20 @@ img {
   opacity: 0.15;
   -webkit-filter: brightness(0%);
   filter: brightness(0%);
+}
+
+.paragraph {
+  margin-bottom: 5px;
+  font-family: Lato, sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.heading {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 @media screen and (min-width: 1920px) {
