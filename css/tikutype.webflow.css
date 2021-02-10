@@ -1,0 +1,779 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-bottom: 5px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+a {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.grant {
+  min-height: 200vh;
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+  color: #333;
+}
+
+.grant-header {
+  overflow: hidden;
+  height: 300px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(135deg, rgba(0, 102, 255, 0.75), rgba(0, 15, 180, 0.75)), url('../images/Anchorage_on_an_April_evening-1.jpg');
+  background-position: 0px 0px, 50% 75%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.grant-header-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-shadow: 0 0 10px #000c4b;
+}
+
+.grant-description {
+  max-width: 600px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Lato, sans-serif;
+}
+
+.grant-description h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.grant-description p {
+  font-size: 18px;
+  line-height: 125%;
+  text-align: left;
+}
+
+.grant-rules {
+  max-width: 600px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Lato, sans-serif;
+}
+
+.grant-rules li {
+  margin-left: -20px;
+  list-style-type: disc;
+}
+
+.grant-header-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+}
+
+.divider-line {
+  width: 100%;
+  max-width: 600px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 2px solid #000;
+  opacity: 0.3;
+}
+
+.grant-adn-logo {
+  display: block;
+  max-width: 50%;
+  margin-bottom: 10px;
+  -webkit-filter: brightness(10000%);
+  filter: brightness(10000%);
+}
+
+.grant-form {
+  width: 600px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.adna-hero {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 140px;
+  padding-right: 40px;
+  padding-left: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  font-family: Lato, sans-serif;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.adna-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 40px;
+  margin-right: auto;
+  margin-bottom: 140px;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Lato, sans-serif;
+}
+
+.adna-about-header {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  line-height: 100%;
+  font-weight: 900;
+  text-align: center;
+}
+
+.adna-about-paragraph {
+  max-width: 800px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+.adna-adn-circle {
+  position: absolute;
+  left: 0%;
+  top: 270px;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100vh;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.adna-stats {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 200px;
+  margin-bottom: 40px;
+  padding: 40px 40px 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.adna-hero-content {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.adna-hero-heading {
+  max-width: 900px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.adna-selections {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.adna-selection {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  color: #000;
+  text-decoration: none;
+}
+
+.adna-selection:hover {
+  -webkit-transform: translate(0px, -5px);
+  -ms-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
+}
+
+.adna-selection-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  padding: 5px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 1000px;
+  background-color: #6573ae;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  font-family: 'Fa solid 900', sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+.adna-selection-text {
+  max-width: 200px;
+}
+
+.adna-selection-name {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: Lato, sans-serif;
+  line-height: 100%;
+}
+
+.adna-selection-description {
+  margin-bottom: 0px;
+  font-family: Lato, sans-serif;
+}
+
+.adna-feature {
+  max-width: 200px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.adna-feature-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+  padding: 5px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Fa solid 900', sans-serif;
+  color: #6573ae;
+  font-size: 72px;
+  line-height: 100%;
+}
+
+.adn-feature-number {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Lato, sans-serif;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+.adna-feature-description {
+  margin-bottom: 0px;
+  font-family: Lato, sans-serif;
+}
+
+.adna-about {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.adna-affiliate-logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  padding: 10px 20px 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.adn-affiliates {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.adn-affiliate {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 200px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.adna-affiliate-header {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.adna-affiliate-paragraph {
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+.adna-selection-header {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: Lato, sans-serif;
+  line-height: 100%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.adna-button {
+  padding: 10px 15px;
+  border-radius: 100px;
+  background-color: #6573ae;
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
+.adna-button:hover {
+  -webkit-transform: translate(0px, -5px);
+  -ms-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
+}
+
+.adna-features {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-embed {
+  position: relative;
+  width: 100%;
+}
+
+.section {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container.adn-employment {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.adn {
+  font-family: Lato, sans-serif;
+  color: #000;
+}
+
+.adn-navbar {
+  width: 100%;
+  height: 60px;
+  border-bottom: 4px solid #85a5cc;
+  background-color: #3d4460;
+}
+
+.adn-utility-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #ebebeb;
+}
+
+.horizontal-line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.horizontal-line.adn-employment {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.adn-employment.adn-logo {
+  display: block;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.15;
+  -webkit-filter: brightness(0%);
+  filter: brightness(0%);
+}
+
+@media screen and (min-width: 1920px) {
+  .adna-selection-icon {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .adna-about-paragraph {
+    text-align: center;
+  }
+
+  .adna-affiliate-paragraph {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .adna-hero-heading {
+    margin-bottom: 100px;
+    font-size: 28px;
+  }
+
+  .adn-employment.adn-logo {
+    max-width: 250px;
+  }
+}
+
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../fonts/fa-regular-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
